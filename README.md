@@ -6,11 +6,11 @@ TukuToi Zero Tracking and Full Privacy Badge is granted to any Online Instance f
 3. Any data communicated by the client, in any form, is the users Private Property.
 4. The Website or Webmaster does not track, register, detect or else spy on the user and their activities.
 5. The Website or Webmaster does not engage in any form of tracking or analysis of the user's data.
-6. The Website or Webmaster does not employ any form of tracking software, including but not limited to Google Analytics, Facebook Analytics, Plausible.io, SemRush, or any other form of analysis involving user data.
-7. The Website or Webmaster does by their knowledge the best to protect the user from Security and Data breaches, be it on The Website or Affiliated, or else connected services.
-8. The Website or Webmaster transparently communicates to the visitors in a Privacy Policy what data is tracked and what actions the visitor can take to remove this data, if any. 
+6. The Website or Webmaster does not employ any form of tracking software, including but not limited to Google Analytics, Facebook Analytics, Plausible.io, SemRush, or any other form of analysis involving user data such as cookies, beacons, or else.
+7. The Website or Webmaster does by their knowledge the best to protect the user from Security and Data breaches, be it on The Website or Affiliated Instances, or else connected services.
+8. The Website or Webmaster transparently communicates to the visitors in a Privacy Policy what data is registered, if any, and what actions the visitor can take to remove this data, if any. 
 9. The Website or Webmaster communicates to the visitors what happens with the data tracked, if any, and why specific data is collected.
-10. The Website or Webmaster does not maintain a "Email List" or else list of their visitors, unless clearly agreed upon by the visitor.
+10. The Website or Webmaster does not maintain a "Email List" or else list of their visitors, unless clearly agreed upon by the visitor, nor are online decisions of the user collected.
 
 # Zero-Tracking-Policy Badge Specs
 
