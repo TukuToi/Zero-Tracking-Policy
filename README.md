@@ -11,3 +11,8 @@ TukuToi Zero Tracking and Full Privacy Badge is granted to any Online Instance f
 8. The Website or Webmaster transparently communicates to the visitors in a Privacy Policy what data is tracked and what actions the visitor can take to remove this data, if any. 
 9. The Website or Webmaster communicates to the visitors what happens with the data tracked, if any, and why specific data is collected.
 10. The Website or Webmaster does not maintain a "Email List" or else list of their visitors, unless clearly agreed upon by the visitor.
+
+# Zero-Tracking-Policy Badge Specs
+
+- The Fill Color of the Badge must be `#2e7ba5` or `#ffffff`.
+- The Badge cannot be altered from its current look.
