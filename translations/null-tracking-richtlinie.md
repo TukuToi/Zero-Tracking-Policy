@@ -7,7 +7,7 @@ Das TukuToi "Null Tracking und Full Online Privacy" Abzeichen wird jeder Instanz
 3. Alle vom Besucher/Benutzer in irgendeiner Form übermittelten Daten sind Privateigentum des Benutzers.
 4. Die Website/Webmaster verfolgt keine, registriert keine und spioniert in keiner form den Benutzer und deren Aktivitäten.
 5. Die Website oder der Webmaster führt keinerlei Nachverfolgung oder Analyse der Benutzerdaten durch.
-6. Die Website oder der Webmaster verwendet keinerlei Tracking-Software, einschließlich, aber nicht beschränkt auf Google Analytics, Facebook Analytics, Plausible.io, SEMrush oder andere Formen der Analyse mit Benutzerdaten.
+6. Die Website oder der Webmaster verwendet keinerlei Tracking-Software, einschließlich, aber nicht beschränkt auf Google Analytics, Facebook Analytics, Plausible.io, SEMrush oder andere Formen der Analyse mit Benutzerdaten, cookies, beacons oder ähnlich.
 7. Die Website oder der Webmaster tun nach ihrem Wissen das Beste, um den Benutzer vor Sicherheits- und Datenverletzungen zu schützen, sei es auf der Website oder anderen verbundenen Diensten.
 8. Die Website oder der Webmaster teilt den Besuchern der Website durch Datenschutzrichtlinien transparent mit, welche Daten erfasst werden und welche Maßnahmen der Besucher ergreifen kann, um diese Daten gegebenenfalls zu entfernen, falls daten erfasst werden.
 9. Die Website oder der Webmaster teilt den Besuchern mit, was mit den gegebenenfalls erfassten Daten geschieht und warum bestimmte Daten erfasst werden.
