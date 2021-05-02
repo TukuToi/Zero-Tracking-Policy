@@ -16,6 +16,30 @@ TukuToi Zero Tracking and Full Privacy Badge is granted to any Online Instance f
 
 - The Fill Color of the Badge must be `#2e7ba5` or `#ffffff`.
 - The Badge cannot be altered from its current look.
+- Include the badge anywhere you want on your website, once or repeatedly.
+- Download, include, copy, paste the 10 points TukuToi Zero Tracking Policy where and how you want, as long it is not altered.
+- Do link the Badge to either this GitHub Repo, _or_ the original Policy at https://www.tukutoi.com/tukutoi-zero-tracking-policy/ _unless_ you include the Policy on your project, then you may link to that page instead.
+- The easiest way to include the badge site wide using Bootstrap woudl be something like this:
+```
+<style>
+.zero-tracking-policy-badge{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+</style>
+<div class="container ">
+  <div class="row ">
+    <div class="col-md-1 zero-tracking-policy-badge">
+      <p>
+        <a href="https://www.tukutoi.com/tukutoi-zero-tracking-policy/">
+          <img loading="lazy" src="./img/zero-tracking.png" width="34" height="39" class="aligncenter size-full img-fluid">
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+```
 
 # Websites adhering and using the TukuToi Zero Tracking Policy
 *Note, this list is completely voluntary and not result of a tracking proces, of course*
