@@ -16,3 +16,10 @@ TukuToi Zero Tracking and Full Privacy Badge is granted to any Online Instance f
 
 - The Fill Color of the Badge must be `#2e7ba5` or `#ffffff`.
 - The Badge cannot be altered from its current look.
+
+# Websites adhering and using the TukuToi Zero Tracking Policy
+*Note, this list is completely voluntary and not result of a tracking proces, of course*
+
+1. TukuToi (https://www.tukutoi.com/)
+2. HumanOfEarth (https://www.humanofearth.com/)
+3. Undenk (https://www.undenk.info/)
