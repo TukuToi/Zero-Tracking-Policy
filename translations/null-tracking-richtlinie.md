@@ -1,4 +1,4 @@
-# Null-Tracking-Richtlinie
+# TukuToi Null Tracking Richtlinie
 
 Das TukuToi "Null Tracking und Full Online Privacy" Abzeichen wird jeder Instanz gewährt, die die TukuToi Null-Tracking-Richtlinie befolgt und anerkennt.
 
