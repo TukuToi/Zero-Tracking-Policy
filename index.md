@@ -2,7 +2,7 @@
 TukuToi Zero Tracking and Full Privacy Badge is granted to any Online Instance following the TukuToi Zero Tracking Policy.
 
 The TukuToi Zero Tracking Policy:
-```
+
 1. The Privacy of Website Visitors and generally users of the World Wide Web is a fundamental Right.
 2. Every action taken by any World Wide Web user in any online instance is the users Private Concern.
 3. Any data communicated by the client, in any form, is the users Private Property.
@@ -13,7 +13,7 @@ The TukuToi Zero Tracking Policy:
 8. The Website or Webmaster transparently communicates to the visitors in a Privacy Policy what data is registered, if any, and what actions the visitor can take to remove this data, if any. 
 9. The Website or Webmaster communicates to the visitors what happens with the data tracked, if any, and why specific data is collected.
 10. The Website or Webmaster does not maintain a "Email List" or else list of their visitors, unless clearly agreed upon by the visitor, nor are online decisions of the user collected.
-```
+
 
 # Zero-Tracking-Policy Badge Specs
 
