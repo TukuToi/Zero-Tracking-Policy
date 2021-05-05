@@ -48,6 +48,6 @@ The TukuToi Zero Tracking Policy:
 # Websites adhering and using the TukuToi Zero Tracking Policy
 *Note, this list is completely voluntary and not result of a tracking proces, of course*
 
-1. TukuToi (https://www.tukutoi.com/)
-2. HumanOfEarth (https://www.humanofearth.com/)
-3. Undenk (https://www.undenk.info/)
+1. [TukuToi](https://www.tukutoi.com/)
+2. [HumanOfEarth](https://www.humanofearth.com/)
+3. [Undenk](https://www.undenk.info/)
