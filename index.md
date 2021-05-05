@@ -23,6 +23,7 @@ The TukuToi Zero Tracking Policy:
 - Download, include, copy, paste the 10 points TukuToi Zero Tracking Policy where and how you want, as long it is not altered.
 - Do link the Badge to either this GitHub Repo, _or_ the original Policy at https://www.tukutoi.com/tukutoi-zero-tracking-policy/ _unless_ you include the Policy on your project, then you may link to that page instead.
 - The easiest way to include the badge site wide using Bootstrap woudl be something like this:
+
 ```
 <style>
 .zero-tracking-policy-badge{
