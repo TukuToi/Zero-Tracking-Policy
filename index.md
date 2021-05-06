@@ -4,7 +4,7 @@
 
 **The Problem**
 
-Thousands (millions) of World Wide Web users visit daily thousnads (millions?) of Websites, which more often than not employ some sort of tracking, cookies, sniffing or else "analysis" of their Website Visitors. This data is usually gathered off-site, thru Google or Facebook or other services, and then analysed by the Webmaster. This data however is mostly the Visitors Private Concern, which is why GDPR was instantiated, forcing many Websites to ask the Visitor if they are fine with their data being tracked, or not.
+Thousands (millions) of World Wide Web users visit daily thousands (millions?) of Websites, which more often than not employ some sort of tracking, cookies, sniffing or else "analysis" of their Website Visitors. This data is usually gathered off-site, thru Google or Facebook or other services, and then analysed by the Webmaster. This data however is mostly the Visitors Private Concern, which is why GDPR was instantiated, forcing many Websites to ask the Visitor if they are fine with their data being tracked, or not.
 
 This has brought some major issues with it:
 - it is annooying 
