@@ -23,7 +23,7 @@ We believe that the Webmaster, or in other words, the one who collects the data 
 Externalizing the responsibility to the user by making them choose (or excluding them if they dont choose) what to agree to and what not, is wrong, because many users wont even understand what they agree to (or not).
 The right thing to do is stop attempting to "steal" those users data. It is not ours (webmasters) to start with, and we will not gain much by "having it"
 
-The right approach is to respect the users privacy and not just to state so, so to later make them agree to share everythign they own online with us.
+The right approach is to respect the users privacy and not just to state so, and later make them agree to share everythign they own online with us. Instead, what's mine is mine and what's yours is yours. In real life, people are arrested for "stealing" things, so it should be in the online life. In real life, people peeking into your rooms without your consent get in trouble. So it should be in the online life (and dont kid yourself that the website is YOUR room, it is not. You delive the website to the visitors room, so, basically anything the websites does or shows, is happening *inside the visitors own private area*)
 
 The right thing to do is not to employ trackers, cookies, mailing lists, and other data gethering tools on our websites.
 There are many Webmasters actively doing so, even storing fonts on their own servers to avoid any snooping (for example by Adobe Fonts), they do not engage in Analytics and even store videos themselves to avoid external storage providers snoop their visitors.
