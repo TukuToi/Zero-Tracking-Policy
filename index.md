@@ -20,7 +20,7 @@ But, do not take our word for it. You can [Read](https://www.theguardian.com/com
 **The Solution**
 
 We believe that the Webmaster, or in other words, the one who collects the data is responsible for this, it is and shall not be on the user. 
-Externalizing the responsibility to the user by making them choose (or excluding them) what to agree to and what not, is wrong, because many users wont even understand what they agree to (or not).
+Externalizing the responsibility to the user by making them choose (or excluding them if they dont choose) what to agree to and what not, is wrong, because many users wont even understand what they agree to (or not).
 The right thing to do is stop attempting to "steal" those users data. It is not ours (webmasters) to start with, and we will not gain much by "having it"
 
 The right approach is to respect the users privacy and not just to state so, so to later make them agree to share everythign they own online with us.
