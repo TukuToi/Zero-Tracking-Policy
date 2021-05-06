@@ -15,7 +15,7 @@ This has brought some major issues with it:
 ==> because basically, if I am not willing to let a website snoop my data, I am not allowed to get news, information or else data stored online, this is what it boils down to: give us your data or we give you no information.
 
 The situation (privacy infringements, data selling, data analysys and worse things like FLoC) has NOT improved with GDPR. It has worsened, and left the legal side without any power of action because now everything is "accepted by the user". 
-But, do not take our word for it. You can Read Online several articles (after you accept their cookies) discussing this matter too.
+But, do not take our word for it. You can [Read](https://www.theguardian.com/commentisfree/2019/nov/10/these-new-rules-were-meant-to-protect-our-privacy-they-dont-work) [Online](https://insightsoftware.com/blog/gdpr-the-good-the-bad-the-ugly/) several articles (after you accept their cookies 🍭) discussing this matter too.
 
 **The Solution**
 
