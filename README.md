@@ -47,3 +47,4 @@ TukuToi Zero Tracking and Full Privacy Badge is granted to any Online Instance f
 1. TukuToi (https://www.tukutoi.com/)
 2. HumanOfEarth (https://www.humanofearth.com/)
 3. Undenk (https://www.undenk.info/)
+4. GeneratePlugins (https://www.generateplugins.com)
