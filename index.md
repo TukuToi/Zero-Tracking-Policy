@@ -81,3 +81,4 @@ So, a Policy should be created, with a Badge, and a "contract" that is as widely
 1. [TukuToi](https://www.tukutoi.com/)
 2. [HumanOfEarth](https://www.humanofearth.com/)
 3. [Undenk](https://www.undenk.info/)
+4. [GeneratePlugins](https://www.generateplugins.com/)
