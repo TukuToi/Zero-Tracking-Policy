@@ -45,7 +45,7 @@ Thus, a Policy should be created with a Badge and a "contract" that is as widely
 
 # Zero-Tracking-Policy Badge Specs
 
-- The Fill Color of the Badge must be ![#2e7ba5](https://via.placeholder.com/15/2e7ba5/2e7ba5.png) or ![#ffffff](https://via.placeholder.com/15/ffffff/ffffff.png).
+- The Fill Color of the Badge must be `#2e7ba5` `#ffffff`.
 - The Badge cannot be altered from its current look.
 - Include the Badge anywhere you want on your website, once or repeatedly.
 - Download, include, copy, and paste the 10 points TukuToi Zero Tracking Policy where and how you want, as long it is not altered.
