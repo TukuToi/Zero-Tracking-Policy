@@ -2,8 +2,8 @@
 TukuToi Zero Tracking and Full Privacy Badge is granted to any Online Instance following the TukuToi Zero Tracking Policy.
 
 1. The Privacy of Website Visitors and generally users of the World Wide Web is a fundamental Right.
-2. Every action taken by any World Wide Web user in any online instance is the users Private Concern.
-3. Any data communicated by the client, in any form, is the users Private Property.
+2. Every action taken by any World Wide Web user in any online instance is the user's Private Concern.
+3. Any data communicated by the client, in any form, is the user's Private Property.
 4. The Website or Webmaster does not track, register, detect or else spy on the user and their activities.
 5. The Website or Webmaster does not engage in any form of tracking or analysis of the user’s data.
 6. The Website or Webmaster does not employ any form of tracking software, including but not limited to Google Analytics, Facebook Analytics, Plausible.io, SemRush, or any other form of analysis involving user data such as cookies, beacons, or else.
@@ -14,7 +14,7 @@ TukuToi Zero Tracking and Full Privacy Badge is granted to any Online Instance f
 
 # Zero-Tracking-Policy Badge Specs
 
-- The Fill Color of the Badge must be #2e7ba5 or #ffffff.
+- The Fill Color of the Badge must be ![#2e7ba5](https://via.placeholder.com/15/2e7ba5/2e7ba5.png) or ![#ffffff](https://via.placeholder.com/15/ffffff/ffffff.png).
 - The Badge cannot be altered from its current look.
 - Include the badge anywhere you want on your website, once or repeatedly.
 - Download, include, copy, paste the 10 points TukuToi Zero Tracking Policy where and how you want, as long it is not altered.
