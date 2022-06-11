@@ -48,3 +48,4 @@ TukuToi Zero Tracking and Full Privacy Badge is granted to any Online Instance f
 2. HumanOfEarth (https://www.humanofearth.com/)
 3. Undenk (https://www.undenk.info/)
 4. GeneratePlugins (https://www.generateplugins.com)
+5. ARJAY B. ARAÑA (https://www.arjayarana.xyz)
