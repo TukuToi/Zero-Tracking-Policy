@@ -5,7 +5,7 @@ The TukuToi Zero Tracking Policy is a blockchain based Privacy and Tracking Poli
 Thepolicy enacts a contract between Web Users and Web Masters, where the Web Masters agree to respect the Web Users privacy, and the Web Users can verify this contract, enforece it and invalidate it. 
 Since the Zero Tracking Policy is based on blockchain technology, it impossible to ever tamper with the ledger of verifications.
 
-## How does it work
+## How does it work - the principle
 
 The Webmaster who intends to provide a browsing experience respecting the Contract (see "Contract" section below),
 will submit their domain to the Network for verification.
@@ -41,6 +41,36 @@ This way, we can ensure a couple things:
 - if a Webmaster cheats, Web Users can express this by warning the network through a "de-confirmation", or "downvote" of the Domain. This happens just like when re-verifiying the Domain, through a new block, but this time, the confirmations will become -1 from the total.
 - The _original_ Contract can never be destroyed, altered, or get lost, because it is part of the blockchain: in fact, it is incorporated in the Genesis Block (first block in the chain) as the "domain", in a base64 encoded string, for everyone to read.
 
+## API and technical details
+
+To build a node, download the `zero_tracking_policy` folder and install it on a server that can access the web.
+
+Then, initiate the node by performing a `GET` request to `your-domain.tld/path-to-the-policy/zero_tracking_policy/v1.php` for `get_chain`.
+This will initiate the Chain with the genesis block on your node.
+
+Immediately after, you should sync your node with the network, by performing a `GET` request to `your-domain.tld/path-to-the-policy/zero_tracking_policy/v1.php` for `replace_chain`
+This will ask all existing nodes for their chains, compare them, and deliver the consented upon chain to your node.
+
+Now you can start staging domains (adding as pending for review) using a `POST` request to `your-domain.tld/path-to-the-policy/zero_tracking_policy/v1.php` with a `x-www-form-urlencoded` payload as follows:
+**key**: `stage_domain`
+**value**: `domain.tld` (where `domain.tld` represents the domain you want to stage)
+This will add the domain to the "pending" domains list.
+
+Any node, inclusive your own, can now verify this domain (add it to the chain) using a `POST` request to `your-domain.tld/path-to-the-policy/zero_tracking_policy/v1.php` with a `x-www-form-urlencoded` payload as follows:
+**key**: `verify_domain`
+**value**: `domain.tld` (where `domain.tld` represents the domain you want to verify)
+This will effectively add the domain to the chain, with a confirmation of `1`
+
+To further confirm this domain, further `POST` requests to `your-domain.tld/path-to-the-policy/zero_tracking_policy/v1.php` with a `x-www-form-urlencoded` with payload exactly like the Verification can be performed, each adding a new block to the chain for the domain to be confirmed, increasing the `confirmations` value by `1` each time
+
+To verify if a chain is valid, a `GET` request to `your-domain.tld/path-to-the-policy/zero_tracking_policy/v1.php` can be performed for `is_chain_valid`
+
+To get data about a domain, a `GET` request to `your-domain.tld/path-to-the-policy/zero_tracking_policy/v1.php` can be performed for `get_domain` with value `domain.tld` where `domain.tld` represents the domain you want to receive information about)
+
+To add further nodes, you can perform a `POST` request to `your-domain.tld/path-to-the-policy/zero_tracking_policy/v1.php` with a `x-www-form-urlencoded` payload as follows:
+**key**: `add_node`
+**value**: `node.tld` (where `node.tld` represents the domain/node you want to add)
+
 ## The Contract
 
 1. The Privacy of Website Visitors and generally users of the World Wide Web is a fundamental Right.
@@ -60,3 +90,4 @@ This way, we can ensure a couple things:
 - the contract, being immutable, has to be pedantically reviewed
 - logic to keep track of pending domains has to be partially reviewed, and partially extended
 - logic to un-verify a domain has to be implemented
+- logic to sync and keep track of nodes has to be implemented
