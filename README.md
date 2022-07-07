@@ -16,7 +16,7 @@ Passed this test, the domain owner or any one else can add the domain to the blo
 
 From this point on, the domain will be part of the TukuToi Zero Tracking Policy, immutably, and forever.
 The domain at this point will be part of the chain as a block with this example structure:
-
+```
  ----------------------
 | index               3| // Describes the Index of this block in the chain
  ----------------------
@@ -30,7 +30,7 @@ The domain at this point will be part of the chain as a block with this example 
  ----------------------
 | confirmations       1| // Describes the number of confirmations this website received 
  ----------------------
-
+```
 Anyone now can see in the blockchain this Domain has been verified, and it has received one confirmation to uphold the Contract: The owner's own confirmation. We can understand this block as the "signature" on the contract.
 
 From this point on Web Users in general are able to _confirm_ the Contract is upheld by its owner by re-confirming the Domain.
