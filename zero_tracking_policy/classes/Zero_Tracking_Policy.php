@@ -42,11 +42,11 @@ class Zero_Tracking_Policy {
 	private $domains;
 
 	/**
-	 * The genesis domain.
+	 * The Contract.
 	 *
-	 * @var string $genesis_domain The genesis Domain from which all started.
+	 * @var string $contract The Contract to which all blocks agree.
 	 */
-	private $genesis_domain = 'zero-tracking-policy.com';
+	private $contract = '';
 
 	/**
 	 * The path to the chain.
@@ -89,10 +89,20 @@ class Zero_Tracking_Policy {
 	 */
 	public function __construct() {
 
+		$this->contract = self::get_contract();
 		$this->chain = self::get_chain();
 		$this->nodes = self::get_nodes();
 		$this->pending_domains = self::get_pending_domains();
 		$this->domains = self::get_domains();
+
+	}
+
+	/**
+	 * Get the contract
+	 */
+	private function get_contract() {
+
+		return file_get_contents( 'data/contract.base64' );
 
 	}
 
@@ -110,7 +120,6 @@ class Zero_Tracking_Policy {
 		} else {
 			$chain = array( $this->genesis_block() );
 			file_put_contents( $this->chain_path, json_encode( $chain ) );
-			file_put_contents( $this->domains_path, json_encode( array( $this->genesis_domain ) ) );
 		}
 
 		return $chain;
@@ -147,7 +156,7 @@ class Zero_Tracking_Policy {
 			'timestamp' => time(),
 			'proof' => 0,
 			'previous_hash' => 0,
-			'domain' => $this->genesis_domain,
+			'domain' => $this->contract,
 			'confirmations' => 0,
 		);
 

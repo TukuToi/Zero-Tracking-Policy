@@ -1,5 +1,47 @@
 # TukuToi Zero Tracking Policy
-TukuToi Zero Tracking and Full Privacy Badge is granted to any Online Instance following the TukuToi Zero Tracking Policy.
+
+The TukuToi Zero Tracking Policy is a blockchain based Privacy and Tracking Policy for Websites. 
+
+Thepolicy enacts a contract between Web Users and Web Masters, where the Web Masters agree to respect the Web Users privacy, and the Web Users can verify this contract, enforece it and invalidate it. 
+Since the Zero Tracking Policy is based on blockchain technology, it impossible to ever tamper with the ledger of verifications.
+
+## How does it work
+
+The Webmaster who intends to provide a browsing experience respecting the Contract (see "Contract" section below),
+will submit their domain to the Network for verification.
+This works by POSTing the domain to any of the available nodes.
+The nodes then pick up the domain (as "pending verification") and first verifies that the domain submitted is online, has a valid DNS and thus is a real website.
+
+Passed this test, the domain owner or any one else can add the domain to the blockchain as verified.
+
+From this point on, the domain will be part of the TukuToi Zero Tracking Policy, immutably, and forever.
+The domain at this point will be part of the chain as a block with this example structure:
+
+ ----------------------
+| index               3| // Describes the Index of this block in the chain
+ ----------------------
+| timestamp  1657183515| // Describes an UNIX Timestamp when this block was added to the chain
+ ----------------------
+| proof           48245| // Describes the value required to generate the Hash based on the deifficulty (4)
+ ----------------------
+| previous_hash 31[.]59| // Describes the previous block hash ([.] is a placeholder for a much larger SHA256 Hash)
+ ----------------------
+| domain     domain.tld| // Describes the Domain (Website) added
+ ----------------------
+| confirmations       1| // Describes the number of confirmations this website received 
+ ----------------------
+
+Anyone now can see in the blockchain this Domain has been verified, and it has received one confirmation to uphold the Contract: The owner's own confirmation. We can understand this block as the "signature" on the contract.
+
+From this point on Web Users in general are able to _confirm_ the Contract is upheld by its owner by re-confirming the Domain.
+What this does, is adding another block to the chain, with with the same value in `domain`, however new index, timestamp, proof, hash and `confirmations` gets updated by 1 (all previous confirmations + 1)
+
+This way, we can ensure a couple things:
+- if a WebMaster signs up to the policy, they cannot retreat from it. The domain is immutably signed to the Contract, with at least one confirmation: The Domain owner's "signature".
+- if a Webmaster cheats, Web Users can express this by warning the network through a "de-confirmation", or "downvote" of the Domain. This happens just like when re-verifiying the Domain, through a new block, but this time, the confirmations will become -1 from the total.
+- The _original_ Contract can never be destroyed, altered, or get lost, because it is part of the blockchain: in fact, it is incorporated in the Genesis Block (first block in the chain) as the "domain", in a base64 encoded string, for everyone to read.
+
+## The Contract
 
 1. The Privacy of Website Visitors and generally users of the World Wide Web is a fundamental Right.
 2. Every action taken by any World Wide Web user in any online instance is the user's Private Concern.
@@ -12,40 +54,9 @@ TukuToi Zero Tracking and Full Privacy Badge is granted to any Online Instance f
 9. The Website or Webmaster communicates to the visitors what happens with the data tracked, if any, and why specific data is collected.
 10. The Website or Webmaster does not maintain a “Email List” or else list of their visitors, unless clearly agreed upon by the visitor, nor are online decisions of the user collected.
 
-# Zero-Tracking-Policy Badge Specs
-
-- The Fill Color of the Badge must be ![#2e7ba5](https://via.placeholder.com/15/2e7ba5/2e7ba5.png) or ![#ffffff](https://via.placeholder.com/15/ffffff/ffffff.png).
-- The Badge cannot be altered from its current look.
-- Include the badge anywhere you want on your website, once or repeatedly.
-- Download, include, copy, paste the 10 points TukuToi Zero Tracking Policy where and how you want, as long it is not altered.
-- Do link the Badge to either this GitHub Repo, or the original Policy at https://www.tukutoi.com/tukutoi-zero-tracking-policy/ unless you include the Policy on your project, then you may link to that page instead.
-- The easiest way to include the badge site wide using Bootstrap woudl be something like this:
-```
-<style>
-.zero-tracking-policy-badge{
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-}
-</style>
-<div class="container ">
-  <div class="row ">
-    <div class="col-md-1 zero-tracking-policy-badge">
-      <p>
-        <a href="https://www.tukutoi.com/tukutoi-zero-tracking-policy/">
-          <img loading="lazy" src="./img/zero-tracking.png" width="34" height="39" class="aligncenter size-full img-fluid">
-        </a>
-      </p>
-    </div>
-  </div>
-</div>
-```
-
-# Websites adhering and using the TukuToi Zero Tracking Policy
-*Note, this list is completely voluntary and not result of a tracking proces, of course*
-
-1. TukuToi (https://www.tukutoi.com/)
-2. HumanOfEarth (https://www.humanofearth.com/)
-3. Undenk (https://www.undenk.info/)
-4. GeneratePlugins (https://www.generateplugins.com)
-5. ARJAY B. ARAÑA (https://www.arjayarana.xyz)
+# To Do
+- an automated generation of badge should be implemented, possibly with a QR code
+- it should be avoided that users can verify domains repeatedly (or un-verify) either over a certain amount of time, or ever
+- the contract, being immutable, has to be pedantically reviewed
+- logic to keep track of pending domains has to be partially reviewed, and partially extended
+- logic to un-verify a domain has to be implemented
